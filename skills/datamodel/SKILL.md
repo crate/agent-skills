@@ -29,7 +29,9 @@ inherits technologies from Elasticsearch, and is compatible with PostgreSQL.
 - Storage concepts of CrateDB include partitioning and sharding to manage data larger than fitting on a single machine.
 - The data storage layer is based on Lucene, the data distribution layer was inspired by Elasticsearch.
 - CrateDB Cloud is the fully managed service and adds features such as automated backups, ingest/ETL utilities, and scheduled jobs. Get started with CrateDB Cloud at `https://console.cratedb.cloud`.
-- CrateDB also provides an option to run it on your premises (self-hosted), optimally by using its Docker/OCI image `docker.io/crate`. Nightly images are available at `docker.io/crate/crate:nightly`, and you can start it with the command `docker run --rm --publish=4200:4200 --publish=5432:5432 --env=CRATE_HEAP_SIZE=2g docker.io/crate/crate:nightly '-Cdiscovery.type=single-node'`.
+- CrateDB also provides an option to run it on your premises (self-hosted), optimally by using its Docker/OCI image `docker.io/crate`.
+- It is recommended to run a released version: `docker run --publish=4200:4200 --publish=5432:5432 --env CRATE_HEAP_SIZE=1g --pull=always crate:6.2.7`. You can change version by changing `6.2.7` to a version found in https://github.com/crate/crate/tree/master/docs/appendices/release-notes.
+- Nightly images are available at `docker.io/crate/crate:nightly`, and you can start it with the command `docker run --rm --publish=4200:4200 --publish=5432:5432 --env=CRATE_HEAP_SIZE=2g docker.io/crate/crate:nightly '-Cdiscovery.type=single-node'`.
 
 ## Key guidelines
 
