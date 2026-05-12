@@ -31,7 +31,7 @@ docker run --rm -i \
   ghcr.io/crate/cratedb-mcp:0.1.1
 ```
 
-The credentials `crate:crate` should not be used in real-world deployment and is showed here for illustration. Do not put credentials in URLs committed to config files.
+The credentials `crate:crate` should not be used in real-world deployment and are shown here for illustration. Do not put credentials in URLs committed to config files.
 
 ## Configuration
 
@@ -150,7 +150,7 @@ docker run --rm --name=cratedb-mcpo -p 8000:8000 \
   ghcr.io/crate/cratedb-mcpo:latest
 ```
 
-The credentials `crate:crate` should not be used in real-world deployment and is showed here for illustration. Do not put credentials in URLs committed to config files.
+The credentials `crate:crate` should not be used in real-world deployment and are shown here for illustration. Do not put credentials in URLs committed to config files.
 
 ## Available tools
 
