@@ -28,8 +28,10 @@ cratedb-mcp serve
 ```shell
 docker run --rm -i \
   -e CRATEDB_CLUSTER_URL=http://crate:crate@localhost:4200/ \
-  ghcr.io/crate/cratedb-mcp:latest
+  ghcr.io/crate/cratedb-mcp:0.1.1
 ```
+
+The credentials `crate:crate` should not be used in real-world deployment and are shown here for illustration. Do not put credentials in URLs committed to config files.
 
 ## Configuration
 
@@ -59,7 +61,7 @@ export CRATEDB_CLUSTER_URL="https://<user>:<password>@<host>.cratedb.net:4200/"
 cratedb-mcp serve
 
 # HTTP transport (for network-accessible deployment)
-cratedb-mcp serve --transport=http --host=0.0.0.0 --port=8000
+cratedb-mcp serve --transport=http --host=127.0.0.1 --port=8000
 
 # View the built-in system prompt
 cratedb-mcp show-prompt
@@ -84,7 +86,6 @@ Add to your MCP config file:
       "alwaysAllow": [
         "get_cluster_health",
         "get_table_metadata",
-        "query_sql",
         "get_cratedb_documentation_index",
         "fetch_cratedb_docs"
       ]
@@ -148,6 +149,8 @@ docker run --rm --name=cratedb-mcpo -p 8000:8000 \
   -e CRATEDB_CLUSTER_URL \
   ghcr.io/crate/cratedb-mcpo:latest
 ```
+
+The credentials `crate:crate` should not be used in real-world deployment and are shown here for illustration. Do not put credentials in URLs committed to config files.
 
 ## Available tools
 
