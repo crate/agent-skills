@@ -6,7 +6,7 @@ This document is a guideline. Don't worry about getting everything perfect.
 We are happy to work with you on your contribution.
 
 [Upvoting existing issues](#upvoting-existing-issues), 
-[reporting new issues](#repoting-new-issues), or [giving feedback](#giving-feedback)
+[reporting new issues](#repoting-new-issues), or [giving feedback](#tell-us-about-your-experience)
 about your experience are the easiest ways to contribute.
 
 We also accept pull requests for changes to the code and to the documentation.
