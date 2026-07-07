@@ -21,6 +21,17 @@ claude plugin marketplace add anthropics/claude-plugins-community
 claude plugin install cratedb@claude-community
 ```
 
+### GitHub CoPilot
+
+You can install the skills in GitHub CoPilot using the following command:
+
+```
+/plugin install https://github.com/crate/agent-skills.git
+```
+
+Once installed, you will need to restart the CoPilot CLI.
+
+
 ## Configuration
 
 To connect to your CrateDB instance, you can use the [CrateDB MCP server](https://github.com/crate/cratedb-mcp). To set it up, you use the `/cratedb:mcp-setup` skill. 
