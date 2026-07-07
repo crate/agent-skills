@@ -27,7 +27,7 @@ CrateDB implements SQL-99 with custom extensions and is compatible with many Pos
 
 ## Selected
 
-- To write faster `SELECT` queries, you can good advices in https://cratedb.com/docs/guide/performance/selects.html.
+- To write faster `SELECT` queries, you can find good advices in https://cratedb.com/docs/guide/performance/selects.html.
 - You can find optimization guidelines in https://cratedb.com/docs/guide/performance/optimization.html. 
 - The advices and guidelines should be followed to avoid the obvious pitfalls when writing `SELECT` queries.
 
