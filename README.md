@@ -6,6 +6,7 @@ The collection consists of
 * `/cratedb:core` - basic skills about CrateDB
 * `/cratedb:mcp-setup` - setting up the [CrateDB MCP server](https://github.com/crate/cratedb-mcp) to access your CrateDB instance
 * `/cratedb:datamodel` - assistance to data modeling with CrateDB
+* `/cratedb:query` - help to query optimarization
 
 ## Installation
 
